@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Description" content="Enter your description here" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style1.css" />
+    <title>index-travel</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container d-flex justify-content-between">
+        <a class="navbar-brand" class="d-inline-block align-text-center">
+          TRAVEL
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="navbar-img">
+            <div class="dropdown">
+              <img
+                onclick="myFunction()"
+                class="dropbtn"
+                src="img/t.png"
+                alt=""
+                width="32"
+                height="26"
+              />
+              <div id="myDropdown" class="dropdown-content">
+                <a href="#home">Tell:0659496114</a>
+              </div>
+            </div>
+            <a href="https://www.google.co.th/imghp?hl=th">
+              <img src="img/f.png" alt="" width="30" height="24" />
+            </a>
+            <a href="https://www.google.co.th/imghp?hl=th">
+              <img src="img/i.png" alt="" width="30" height="24" />
+            </a>
+          </div>
+          <div class="nav-btn">
+            <a href="index.html" class="login">LOGIN</a>
+          </div>
+          <div class="nav-btn">
+            <a href="index.html" class="logout">LOGOUT</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="section">
+      <div class="container content col-4">
+        <div class="d-flex justify-content-center">
+          <div class="travel-text">
+            <div
+              class="btn-group"
+              role="group"
+              aria-label="Button group with nested dropdown"
+            >
+              <div class="btn-group" role="group">
+                <button
+                  id="btnGroupDrop1"
+                  type="button"
+                  class="btn btn-info dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  สถานที่ท่องเที่ยว
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModalNort"
+                      href="#"
+                      >ภาคเหนือ</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModalCentral"
+                      href="#"
+                      >ภาคกลาง</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModalNortheastern"
+                      href="#"
+                      >ภาคอีสาน</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModalSouth"
+                      href="#"
+                      >ภาคใต้</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container d-flex justify-content-center">
+        <img class="images-1" src="img/13.jpg" alt="" />
+      </div>
+
+      <div>
+        <div class="container d-flex justify-content-center mt-3">
+          <div class="img-block">
+            <img src="img/3.png" />
+          </div>
+          <div class="img-block">
+            <img src="img/4.png" />
+          </div>
+          <div class="img-block">
+            <img src="img/5.png" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-hero">
+      <div class="col-6">
+        <div class="d-flex justify-content-center w-100">
+          <div class="col-lg-4 col-md-12 col-sm-12 mt-4 footer-pos-sm">
+            <div class="col">
+              <h5>เกี่ยวกับ</h5>
+              <div class="row">
+                <a class="text-secondary" href="#">แนะนำสถานที่ท่องเที่ยว</a>
+                <a class="text-secondary" href="#"
+                  >สถานที่ท่องเที่ยวในประเทศไทย</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="col-lg-4 col-md-12 col-sm-12 mt-10 mb-4 footer-pos-sm ms-auto"
+      >
+        <div class="col">
+          <h5>ติดต่อ</h5>
+          <div>
+            <a class="text-secondary" href=""
+              ><i class="fas fa-envelope me-2"></i>
+              WilaipornSrirat098@gmail.com</a
+            >
+          </div>
+          <div>
+            <a class="text-secondary" href=""
+              ><i class="fas fa-phone-alt me-2"></i> 065-949-6114</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div
+      class="modal fade"
+      id="exampleModalNort"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="exampleModalLabel">
+              สถานที่ท่องเที่ยวภาคเหนือ
+            </h4>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <div class="img-block">
+                  <img src="img/6.png" />
+                </div>
+                <div class="img-block">
+                  <img src="img/7.png" />
+                </div>
+                <div class="img-block">
+                  <img src="img/8.png" />
+                </div>
+                <div class="img-block">
+                  <img src="img/9.png" />
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="exampleModalCentral"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="exampleModalLabel">
+              สถานที่ท่องเที่ยวภาคกลาง
+            </h4>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <div class="img-block">
+                  <img src="img/18.png" />
+                </div>
+                <div class="img-block">
+                  <img src="img/19.png" />
+                </div>
+                <div class="img-block">
+                  <img src="img/20.png" />
+                </div>
+                <div class="img-block">
+                  <img src="img/21.png" />
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <div
+      class="modal fade"
+      id="exampleModalNortheastern"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="exampleModalLabel">
+              สถานที่ท่องเที่ยวภาคอีสาน
+            </h4>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <div class="img-block">
+                  <img src="img/14.png" />
+                </div>
+                <div class="img-block">
+                  <img src="img/15.png" />
+                </div>
+                <div class="img-block">
+                  <img src="img/16.png" />
+                </div>
+                <div class="img-block">
+                  <img src="img/17.png" />
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="exampleModalSouth"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="exampleModalLabel">
+              สถานที่ท่องเที่ยวภาคใต้
+            </h4>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <div class="img-block">
+                  <img src="img/10.png" />
+                </div>
+                <div class="img-block">
+                  <img src="img/11.png" />
+                </div>
+                <div class="img-block">
+                  <img src="img/12.png" />
+                </div>
+                <div class="img-block">
+                  <img src="img/13.png" />
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+
+    <script>
+      /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+
+      // Close the dropdown if the user clicks outside of it
+      window.onclick = function (event) {
+        if (!event.target.matches(".dropbtn")) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains("show")) {
+              openDropdown.classList.remove("show");
+            }
+          }
+        }
+      };
+    </script>
+  </body>
+</html>
